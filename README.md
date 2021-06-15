@@ -59,13 +59,13 @@ After obtaining these coefficients, we use ```util.translation.py``` to produce 
    - Hyperparameters such as the learning rate and batch size, you can set in the config file
 
 2. Run ```python -m app.train bch6345_p=4``` to train the model
+    - Train with GPU. For 2 hours of training with 1080Ti 11GB GPU ,around epoch 11 you should get the model ```BCH_63_45_11.pth``` in save file.
     - The training results are in the log file.
-    - Train with GPU. For 2 hours of training with 1080Ti 11GB GPU , around epoch 11 you should get the model ```BCH_63_45_11.pth``` in save file.
 
 ## Step5: Model testing
 1. Set the config file
     Put the path of test model name (```./save/BCH_63_45/p=4/BCH_63_45_11.pth```) in the config (```config.bch6345_p=4.txt```). 
-2. Run ```python -m app.test bch6345_p=4``` to get the BCH(63,45) Bit Error Rate results and Frame Error Rate results in the log file.
+2. Run ```python -m app.test bch6345_p=4``` to get the Bit Error Rate results and Frame Error Rate results in the log file.
 
 Reproduce the performance of the model in our paper for BCH(63,45) when p=4:
 
