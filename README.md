@@ -65,7 +65,7 @@ After obtaining these coefficients, we use ```util.translation.py``` to produce 
 ## Step5: Model testing
 1. Set the config file
     Put the path of test model name (```./save/BCH_63_45/p=4/BCH_63_45_11.pth```) in the config (```config.bch6345_p=4.txt```). 
-2. Run ```python -m app.testber bch6345_p=4``` to get the BCH(63,45) Bit Error Rate results and Frame Error Rate results in the log file.
+2. Run ```python -m app.test bch6345_p=4``` to get the BCH(63,45) Bit Error Rate results and Frame Error Rate results in the log file.
 
 Reproduce the performance of the model in our paper for BCH(63,45) when p=4:
 
