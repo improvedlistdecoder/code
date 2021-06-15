@@ -1,6 +1,6 @@
 # Improving the List Decoding Version of the Cyclically Equivariant Neural Decoder
 
-### <center>  Xiangyu Chen, Min Ye </center>
+### <center>Xiangyu Chen, Min Ye </center>
 An implementation of described in "Improving the List Decoding Version of the Cyclically Equivariant Neural Decoder" (Pytorch implementation) 
 
 ## Abstract
